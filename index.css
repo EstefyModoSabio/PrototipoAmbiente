@@ -1,0 +1,29 @@
+#header img{
+
+    height: 80px;
+}
+
+#header a{
+
+    color: black;
+}
+
+#carousel img{
+    max-height: 80vh;
+    object-fit: cover;
+}
+
+#carousel {
+
+    position: relative;
+}
+
+#carousel.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0,0,0.5);
+    color: white;
+}
